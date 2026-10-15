@@ -1,0 +1,20 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Large or machine-specific experiment artifacts
+/data/
+/datasets/
+/outputs/
+/checkpoints/
+/recordings/
+/wandb/
+*.safetensors
+*.pt
+*.pth
