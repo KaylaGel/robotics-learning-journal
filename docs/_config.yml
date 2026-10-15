@@ -1,0 +1,11 @@
+title: Robotics Learning Journal
+description: A practical path from first principles to physical AI.
+url: https://kaylagel.github.io
+baseurl: /robotics-learning-journal
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock

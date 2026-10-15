@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header><a class="brand" href="{{ '/' | relative_url }}"><span aria-hidden="true">↗</span> ROBOTICS / LEARNING JOURNAL</a><a class="repo" href="https://github.com/KaylaGel/robotics-learning-journal">GitHub ↗</a></header>
+  <div class="shell">
+    <nav aria-label="Main navigation">
+      <p class="eyebrow">FIELD NOTES / 001</p>
+      <p class="nav-title">Learn by<br>building.</p>
+      <p class="nav-intro">From first principles to robots that learn.</p>
+      <a href="{{ '/' | relative_url }}">Overview</a>
+      <a href="{{ '/ROADMAP.html' | relative_url }}">Learning roadmap</a>
+      <a href="{{ '/guides/getting-started.html' | relative_url }}">Getting started</a>
+      <a href="{{ '/guides/physical-ai.html' | relative_url }}">Physical AI</a>
+      <a href="{{ '/projects/index.html' | relative_url }}">Starter projects</a>
+      <a href="{{ '/projects/so101/index.html' | relative_url }}">SO-101 arm project</a>
+      <a href="{{ '/guides/hardware-and-safety.html' | relative_url }}">Hardware planning</a>
+      <a href="{{ '/journal/index.html' | relative_url }}">Learning journal</a>
+      <a href="{{ '/resources/index.html' | relative_url }}">Resources</a>
+      <a href="{{ '/resources/glossary.html' | relative_url }}">Glossary</a>
+      <div class="note">BUILD → OBSERVE → REFLECT<br><span>Small experiments. Honest results.</span></div>
+    </nav>
+    <main id="content"><article>{{ content }}</article><footer>A working journal. Keep the failures, measure the progress.<br><a href="https://github.com/KaylaGel/robotics-learning-journal">View source on GitHub</a> · Repository access requires permission.</footer></main>
+  </div>
+</body>
+</html>
